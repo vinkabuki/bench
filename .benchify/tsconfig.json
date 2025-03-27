@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "*node_modules/*",
+    "dist/*",
+    "coverage/*",
+    ".benchify/*",
+    ".bun/*",
+    "logs/*",
+    "outputs/*",
+    "setup.py",
+    "__init__.py",
+    "conftest.py",
+    "__pycache__/*",
+    "*.pyc",
+    "*.egg-info/*",
+    "migrations/*",
+    ".venv/*",
+    "*venv/*",
+    ".pytest/*",
+    "*/tests/fixtures/*",
+    ".benchify/*",
+    "*node_modules/*",
+    "*/setup.py",
+    "*/__init__.py",
+    "*/conftest.py",
+    "*__pycache__*"
+  ]
+}

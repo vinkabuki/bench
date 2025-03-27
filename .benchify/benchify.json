@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "languages": {
+        "python": {
+            "language": "python",
+            "version": 8
+        },
+        "typescript": {
+            "language": "typescript"
+        }
+    }
+}
