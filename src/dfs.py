@@ -39,6 +39,7 @@ def dfs_iterative(graph, start):
     result = []
     
     while stack:
+        print(stack)
         vertex = stack.pop()
         if vertex not in visited:
             visited.add(vertex)
